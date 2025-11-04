@@ -1,0 +1,45 @@
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ิ<body>
+  <div class="box">
+        <img
+      src="kophai.jpg"
+      alt="โปรไฟล์"
+      class="circle"
+    >
+
+<form action="/form/" method="post">
+<div>
+    <label for="fullname">ชื่อ-นามสกุล :</label>
+    <input type="text" id="fullname" name="user_name" required>
+</div>
+<div>
+    <label for="useremall">อีเมล</label>
+    <input type="email" id="useremall" name="required">
+</div>
+<div>
+    <label for="topic">หัวข้อติดต่อ</label>
+   <select name="user_topic" id="topic">
+   <option value="general">สอบถามปัญหา</option>
+   <option value="support">แจ้งปัญหา</option>
+   </select>
+</div>
+<div>
+    <label for="massage">ข้อความ</label>
+  <textarea name="user_massage" id="massage"></textarea>
+</div>
+<div>
+    <input type="checkbox" id="subscrlbe" value="yes">
+    <label for="subscrlbe">รับข่าวสารจากเรา</label>
+</div>
+<div>
+<button type="submit">ส่งข้อความ</button>
+</div>
+</form>
+</body>
+</html>
